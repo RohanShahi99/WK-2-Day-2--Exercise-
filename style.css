@@ -1,0 +1,100 @@
+/* Header Section */
+header {
+    background: url('Photo/central_park.jpg') center top no-repeat;
+    background-size: 1500px;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgb(255, 245, 238);
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:visited {
+    color: #818db3;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+nav ul li a:active {
+    color: #753a30;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    color: rgb(129, 141, 179);
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+}
+
+/* Footer */
+footer {
+    height: 40px;
+    background-color: rgb(129, 141, 179);
+    text-align: center;
+    line-height: 40px;
+    color: rgb(211, 218, 240);
+    font-size: 14px;
+}
